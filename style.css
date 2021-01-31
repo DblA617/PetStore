@@ -1,0 +1,26 @@
+html{
+    box-sizing: border-box;
+}
+
+#dog1{
+    height: 100px;
+}
+.font-style-dark{
+    color: black;
+}
+
+.container-about {
+    height: 200px;
+    width: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+ }
+
+.about-text {
+   border: 10px solid rgb(184, 176, 176); 
+}
+
+.about-img {
+    
+
+}
