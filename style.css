@@ -9,6 +9,7 @@ html{
     color: black;
 }
 
+
 .container-about {
     height: 200px;
     width: 100px;
@@ -23,4 +24,10 @@ html{
 .about-img {
     
 
+}
+
+#map {
+    border: black thin;
+    border-width: 10px;
+    padding: 20px;
 }
