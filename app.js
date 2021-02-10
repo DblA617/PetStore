@@ -1,3 +1,4 @@
+// This is apart of the headlining section of the main/landing page. 
 var myCarousel = document.querySelector('#myCarousel')
 var carousel = new bootstrap.Carousel(myCarousel, {
   interval: 2000,
@@ -5,12 +6,13 @@ var carousel = new bootstrap.Carousel(myCarousel, {
 })
 
 
+// This is setup for the shop page
 var shop = [
   {
-    title: 'Tigers',
-    image: 'https://images.unsplash.com/photo-1590767187868-b8e9ece0974b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8dGlnZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
-    price: '$7,500-15,000',
-    description: "It's a tiger"
+    title: 'Beds',
+    image: '',
+    price: '$7.50 and up',
+    description: "It's a pet bed"
   }
   ];
   var postHTML = ""
