@@ -30,7 +30,7 @@
   ];
   var postHTML = ""
   for (var i = 0; i < shop.length; i++){
-    var container = "<div class='card'>" 
+    var container = "<div class='card-deck'>" 
     var heading = '<div class=" card=body" ' + '"><h3>' + shop[i].title + '</h3>'
       var image = '<img height=\'150px\' width=\'150px\' src="' + shop[i].image + '"/>'
       var price = '<p> $' + shop[i].price + '</p>'
