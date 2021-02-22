@@ -25,18 +25,18 @@
       title: "Pet Block Color T-Shirt",
       image: "./Images/dogShirt.jpg",
       price: "39.95",
-      description: ""
+      description: " Stylish Tee for your fur-baby"
     },
     {
-      title: "Dog Food",
+      title: "Blue Diamond Dog Food",
       image: "./ShopImages/BlueBuffaloDogFood.webp",
       price: '25.00',
-      description: ''
+      description: 'Quality Dog Food - Good Price, Healthy Choice'
     }
   ];
   var postHTML = ""
   for (var i = 0; i < shop.length; i++){
-    var container = "<div class='card col-3'>" 
+    var container = "<div class='card col-4'>" 
     var heading = '<div class=" card-body" ' + '"><h3>' + shop[i].title + '</h3>'
       var image = '<img height=\'150px\' width=\'150px\' src="' + shop[i].image + '"/>'
       var price = '<p> $' + shop[i].price + '</p>'
@@ -46,5 +46,7 @@
 
   };
   document.getElementById('market').innerHTML = postHTML
+
+
 
   
