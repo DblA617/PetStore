@@ -22,6 +22,11 @@ html{
 }
 
 
+#market{
+    display: flex;
+}
+
+
 #map {
     border: black thin;
     border-width: 10px;
