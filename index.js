@@ -49,4 +49,40 @@
 
 
 
+  var shopp = [
+    {
+    title: "Cat Food",
+    image: "./ShopImages/ShebaCatFood.webp",
+    price: "25.99",
+    description: "Top of the line dry cat food."
+
+    },
+    {
+      title: "Cat Food",
+      image: "./ShopImages/DiamondCatFood.webp",
+      price: "15.98",
+      description: "Dry Cat Food",
+
+    },
+    {
+      title: "Cat Food",
+      image: "./ShopImages/PurinaOneCatFood.webp",
+      price: "19.99",
+      description: "Purina One Cat Food"
+    }
+  ];
+  var postHTMLB = ""
+  for (var i = 0; i < shopp.length; i++){
+    var container2 = "<div class='card col-4'>" 
+    var heading2 = '<div class=" card-body" ' + '"><h3>' + shopp[i].title + '</h3>'
+      var image2 = '<img height=\'150px\' width=\'150px\' src="' + shopp[i].image + '"/>'
+      var price2 = '<p> $' + shopp[i].price + '</p>'
+      var description2 = '<div class=""><p>'+ shopp[i].description + '</p><button type="button" class="">add to cart</button></div></div>'
+      var concatThis = heading2 + image2 + price2 + description2;
+      postHTMLB = postHTMLB + concatThis
+  };
+  document.getElementById('market-2').innerHTML = postHTMLB
+
+
+
   
