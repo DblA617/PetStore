@@ -29,6 +29,10 @@ html{
     display: flex;
 }
 
+#adopt-us{
+    display: flex;
+}
+
 
 #map {
     border: black thin;

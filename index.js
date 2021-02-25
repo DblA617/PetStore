@@ -85,4 +85,53 @@
 
 
 
+
+
+
+  // Below will be the JS for the Adoption Pics and Profiles
+
+
+var adopt = [
+{
+  title: "Phoebe,",
+  sex: "Female",
+  age: 3,
+  image: "Adoption pics/black_white_cat.jpg",
+  description: "",
+},
+{
+  title: "",
+  sex: "",
+  age: "",
+  image: "Adoption pics\Brown puppy.jpg",
+  description: "",
+},
+{
+  title: "",
+  sex: "",
+  age: "",
+  image: "Adoption pics\White dog.jpg",
+  description: "",
+},
+
+
+];
+
+  var postHTMLAU = ""
+  for (var i =0; i < adopt.length; i++){
+    var container3 = "<div class='card col-4'>"
+    var heading3 = "<div class= 'card-body' " + "'><h3>" + adopt[i].title + "</h3>"
+    var image3 = '<img height=\'160px\' width=\'160px\' src="' + adopt[i].image + '"/>'
+    var sexAge = '<p>' + adopt[i].age + ", " + adopt[i].sex + '</p>'
+    var description3 = '<div class=""><p>'+ adopt[i].description + '</p><button type="button" class="">Adopt Me Today</button></div></div>'
+    var concatThis = heading3 + image3 + sexAge + description3;
+      postHTMLAU = postHTMLAU + concatThis
+  };
+
+  document.getElementById('adopt-us').innerHTML = postHTMLAU
+
+
+
+
+
   
