@@ -42,9 +42,9 @@
     
 
 
-      $('#adoptModal').on('shown.bs.modal', function () {
-        $('#myInput').trigger('focus')
-      })
+      // $('#adoptModal').on('shown.bs.modal', function () {
+      //   $('#myInput').trigger('focus')
+      // })
 
 
     
