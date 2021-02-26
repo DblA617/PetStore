@@ -33,6 +33,9 @@ html{
     display: flex;
 }
 
+/* #adopt-comment{
+    height: fit-content;
+} */
 
 #map {
     border: black thin;
